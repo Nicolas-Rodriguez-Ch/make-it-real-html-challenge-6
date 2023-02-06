@@ -1,0 +1,107 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main__container {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card__container {
+    background-color: hsl(216, 50%, 16%);
+    width: 75%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-radius: 15px;
+    height: 75vh;
+}
+hr{
+    border: 0px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.card__image__container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-left: 4vh;
+}
+.card__image__container img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px
+}
+
+.card__text_container {
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+.card__text_container h1 {
+    margin-top: 0;
+    color: white;
+}
+.card__text_container p {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    line-height: 4vh;
+    font-size: 14px;
+}
+
+.text__counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth {
+    color:  hsl(178, 100%, 50%);
+    align-items: center;
+}
+.timer {
+    color: hsl(215, 51%, 70%);
+    align-items: center;
+}
+
+.card__footer_text p {
+    margin-bottom: 0;
+}
+.card__footer {
+    display: flex;
+    height: 20vh;
+    color: hsl(215, 51%, 70%);
+    justify-content: space-between;
+}
+.card__footer img {
+    border: solid 1px white;
+    border-radius: 75px;
+    height: 25%;
+}
+.card__footer b {
+    color: white;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.card__footer b:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.card__image__container:hover {
+    cursor: pointer;  
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+    
+}
