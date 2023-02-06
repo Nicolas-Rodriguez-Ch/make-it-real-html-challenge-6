@@ -40,7 +40,7 @@ hr{
 }   
 .img_filter {
     width: 100%;
-    height: 38vh;
+    height: 32vh;
     position: absolute;
     display: none;
     background-color: hsl(178, 100%, 50%);
@@ -48,9 +48,10 @@ hr{
     border-radius: 10px;
     
 }
-.img_filter img {
-    width: 10px;
-    position:relative;
+#filter {
+    width: 20%;
+    height: 20%;
+    position:absolute;
 }
 
 .card__image__container img{
@@ -125,39 +126,37 @@ h1:hover {
 
 @media (min-width: 769px) and (max-width: 1440px) {
     .main__container {
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
     .card__image__container img{
-    width: 100%;
-    height: 80%;
-
-}
+        width: 100%;
+        height: 80%;
+    }
     .card__image__container {
-    width: 80%;
-    display: flex;
-    margin-left: 40px;
+        width: 80%;
+        display: flex;
+        margin-left: 40px;
     
-}
+    }
     .card__container {
-    max-width: 27%;
-    height: 75vh;
-    
-}
+        max-width: 27%;
+        height: 75vh;
+    }
     .card__text_container p {
-    font-size: 20px;
-}
+        font-size: 20px;
+    }
     .eth {
-    font-size: 20px;
-    font-weight: bold;
-}
-.timer {
-    font-size: 20px;
-}
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .timer {
+        font-size: 20px;
+    }
     .card__footer {
-    justify-content: flex-start;
-}
+        justify-content: flex-start;
+    }
     .card__footer_text {
-    padding-left: 20px;
-    padding-top: 12px;
-}
+        padding-left: 20px;
+        padding-top: 12px;
+    }
 }
