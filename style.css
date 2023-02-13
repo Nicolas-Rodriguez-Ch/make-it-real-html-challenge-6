@@ -129,7 +129,7 @@ h1:hover {
 }
 
 
-@media (min-width: 769px) and (max-width: 1440px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .main__container {
         flex-direction: column;
     }
@@ -140,13 +140,37 @@ h1:hover {
     .card__image__container {
         width: 80%;
         display: flex;
-        margin-left: 40px;
-    
+        margin-top: 0;
     }
     .card__container {
         max-width: 27%;
-        height: 75vh;
+        height: 70%;
     }
+    .card__text_container p {
+        font-size: 20px;
+    }
+    .eth {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .timer {
+        font-size: 20px;
+    }
+    .card__footer {
+        justify-content: flex-start;
+    }
+    .card__footer_text {
+        padding-left: 20px;
+        padding-top: 12px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .card__container {
+        max-width: 27%;
+        height: 75%;
+    }
+
     .card__text_container p {
         font-size: 20px;
     }
